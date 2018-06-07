@@ -4,14 +4,20 @@ body {
   font-size: 14px;
 }
 
-.background {
+.hero {
   background-image: url("../images/the-flatiron-building.png");
+  color: white;
+  background-size: cover;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: bold;
 }
 
 h1 {
   font-size: 70px;
-  color: white;
-  font-weight: bold;
 }
 
 #topnav {
@@ -20,21 +26,15 @@ h1 {
 
 h2 {
   font-size: 32px;
-  font-weight: bold;
 }
 
-h3
-{
+h3 {
   font-size: 23px;
-  font-weight: bold;
 }
 
-a {
+.btn-nav {
   color: white;
-}
-
-.background h3 {
-  color: white;
+  font-size: 18px;
 }
 
 #footer {
